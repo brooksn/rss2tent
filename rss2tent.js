@@ -1,4 +1,10 @@
-var app = {};
+var app = {
+  "feed": "http://example.com.com/rss",
+  "entity": "https://example.com",
+  "app_id": "your app id",
+  "hawk_id": "your hawk id",
+  "hawk_key": "your hawk key"
+};//may optionally be set by IronWorker payload
 var ironv = false;
 for (var i = 0; i < process.argv.length; i++) {
   if (process.argv[i].substr(-12) === 'payload.json') {
