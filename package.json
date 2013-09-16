@@ -1,0 +1,8 @@
+{
+  "name": "rss2tent",
+  "private": true,
+  "dependencies": {
+    "feedparser":  "*",
+    "request": "*"
+  }
+}

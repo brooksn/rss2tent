@@ -1,0 +1,4 @@
+runtime "node"
+exec "rss2tent.js"
+dir "node_modules"
+file "package.json"
